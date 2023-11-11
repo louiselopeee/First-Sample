@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FREE-TO-PLAY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">The International</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Heroes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Earth Spirit</a></li>
+                  <li><a class="dropdown-item" href="#">Crystal Maiden</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">More heroes...</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <h1>  </h1>
+
+<!--Showcase-->
+<section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Play <span class="text-danger"> DOTA 2 </span></h1>
+            <p class="lead my-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quas quidem possimus dolorum esse eligendi?
+            </p>
+            <button
+              class="btn btn-primary btn-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            > <strong>PLAY</strong>
+              
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/dotawallpaper.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+     <!-- Boxes -->
+     <section class="bg-secondary text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Features</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">ESPORTS</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">What's New</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+      <!-- Learn Sections -->
+      <section id="learn" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <img src="img/lina.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md p-5">
+              <h2>Learn The Fundamentals</h2>
+              <p class="lead">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Similique deleniti possimus magnam corporis ratione facere!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                reiciendis eius autem eveniet mollitia, at asperiores suscipit
+                quae similique laboriosam iste minus placeat odit velit quos,
+                nulla architecto amet voluptates?
+              </p>
+              <a href="#" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right"></i> Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+   <hr>
+
+   <section id="learn2" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Road to The International</h2>
+          <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Similique deleniti possimus magnam corporis ratione facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            reiciendis eius autem eveniet mollitia, at asperiores suscipit
+            quae similique laboriosam iste minus placeat odit velit quos,
+            nulla architecto amet voluptates?
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <img src="img/aegis.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Question Accordion -->
+  <section id="questions" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions2">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-one"
+            >
+      
+            How much does it cost to play?
+            
+            </button>
+          </h2>
+          <div
+            id="question-one"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-two"
+            >
+            Where can I play the game?
+            </button>
+          </h2>
+          <div
+            id="question-two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-three"
+            >
+              
+              Who are the easiest heroes to learn?
+            </button>
+          </h2>
+          <div
+            id="question-three"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-four"
+            >
+              How do I sign up?
+            </button>
+          </h2>
+          <div
+            id="question-four"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-five"
+            >
+              What are the PC requirements to play the game?
+            </button>
+          </h2>
+          <div
+            id="question-five"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              beatae fuga animi distinctio perspiciatis adipisci velit maiores
+              totam tempora accusamus modi explicabo accusantium consequatur,
+              praesentium rem quisquam molestias at quos vero. Officiis ad
+              velit doloremque at. Dignissimos praesentium necessitatibus
+              natus corrupti cum consequatur aliquam! Minima molestias iure
+              quam distinctio velit.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+<!-- Newsletter -->
+<section class="bg-primary text-light p-5">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+      <div class="input-group news-input">
+        <input type="text" class="form-control" placeholder="Enter Email" />
+        <button class="btn btn-dark btn-lg" type="button">Submit</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Footer-->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #191b1f"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              VOLVO
+            </h6>
+            <p>
+              From the Ghastly Eyrie I can see to the ends of the world, and from this vantage point I declare with utter certainty that this one is in the bag!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">GAME</h6>
+            <p>
+              <a class="text-white">Steam</a>
+            </p>
+            <p>
+              <a class="text-white">Riot</a>
+            </p>
+            <p>
+              <a class="text-white">Epic Games</a>
+            </p>
+            <p>
+              <a class="text-white">Battle.net</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Seattle, Washington</p>
+            <p><i class="fas fa-envelope mr-3"></i> volvooo@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+            <!-- Facebook -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="#!"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #55acee"
+               href="#!"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="#!"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="#!"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+            <!-- Linkedin -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="#!"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            <!-- Github -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="#!"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
